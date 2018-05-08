@@ -1,0 +1,254 @@
+
+ /*  font text */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trattatello";
+}
+/*  text : check..ile de fr..portraits... */
+p {
+  line-height: 1.55;
+  color: #333;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+/*  title : rosee warda */
+h1 {
+  font-size: 62px;
+}
+/*  about us / portfolio /Videography / CONTACT US distance*/
+h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  color: Maroon;
+}
+
+/* lien interne : PORTFOLIO */
+.btn {
+  background-color: Maroon;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+}
+
+
+.btn:focus {
+  color: black;
+}
+
+
+
+section {
+  padding: 85px 0;
+}
+
+
+
+.scrolltop {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: Maroon;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+.background {
+  display: table;
+  position: relative;
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+  padding: 150px 0;
+  color: white;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+
+.hero:after {
+  content: '';
+  z-index: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.hero-brand {
+  margin-bottom: 75px;
+  display: inline-block;
+}
+
+
+
+.tagline {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  margin: 45px 0 75px 0;
+  color: white;
+}
+
+#header {
+  background: Maroon;
+  height: 70px;
+}
+
+
+
+.nav-menu, .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu > li {
+  float: left;
+}
+
+/* Menu */
+
+
+.nav-menu a {
+  padding: 22px 15px 18px 15px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  outline: none;
+}
+
+.nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+.nav-menu ul li:first-child {
+  border-top: 0;
+}
+
+
+/* circles */
+
+.stats-col .circle {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #666;
+  text-align: center;
+  border: 6px solid Maroon;
+  border-radius: 50%;
+  padding: 55px 25px 0 25px;
+}
+
+/* Portfolio  */
+
+/*  background */
+.portfolio {
+  background-color: #f7f7f7;
+  padding-bottom: 0;
+}
+/*  title : portfolio*/
+.portfolio h2 {
+  color: Maroon;
+  margin-bottom: 25px;
+}
+
+.portfolio-grid {
+  margin-top: 65px;
+}
+
+.portfolio-grid .row {
+  margin: 0;
+}
+ /*  distance btween pics */
+.portfolio-grid .row > div {
+  padding: 0;
+}
+
+.portfolio-grid .row > div .card img {
+  width: 100%;
+}
+/*  text effect transistion*/
+.portfolio-grid .row > div .card .portfolio-over {
+  position: absolute;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+
+}
+.portfolio-grid .row > div .card:hover .portfolio-over {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Contact US */
+/*  background */
+#contact {
+  background: #f7f7f7;
+  padding: 80px 0;
+}
+/*  title :contact us */
+#contact h2 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  color: Maroon;
+}
+  /*  ICONS */
+#contact .info i {
+  font-size: 32px;
+  color: Maroon;
+  float: left;
+}
+/*  text - distance btween */
+#contact .info p {
+  text-align: center;
+  padding: 0 0 10px 5px;
+  line-height: 40px;
+}
+
+
+/*  Footer last part*/
+.site-footer .bottom {
+  background-color: Maroon;
+  padding: 10px 0;
+}
+.site-footer .bottom .list-inline a {
+  color: #fff;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  margin-right: 15px;
+}
+
+.site-footer .bottom .list-inline a:hover {
+  color: black;
+}
+.social {
+float: left;
+padding-left: 10px;
+
+}
