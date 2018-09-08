@@ -24,7 +24,7 @@ h2 {
 /* lien interne : PORTFOLIO */
 .btn {
   background-color: Maroon;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto";
   font-weight: 500;
   color: white;
 }
@@ -37,12 +37,9 @@ h2 {
 }
 
 
-
 section {
   padding: 85px 0;
 }
-
-
 
 .scrolltop {
   display: none;
@@ -64,39 +61,13 @@ section {
   position: relative;
   background-image: url(../img/back.jpg);
   background-size: cover;
-  padding: 150px 0;
+background-position: bottom 0px right 0px;  padding: 150px ;
+background-repeat: no-repeat;
   color: white;
   width: 100%;
-  height: 100%;
   opacity: 0.9;
+
 }
-
-.hero:after {
-  content: '';
-  z-index: 0;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.65);
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-}
-
-.hero .container {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-}
-
-.hero-brand {
-  margin-bottom: 75px;
-  display: inline-block;
-}
-
-
 
 .tagline {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -164,6 +135,7 @@ section {
 /* Portfolio  */
 
 /*  background */
+
 .portfolio {
   background-color: #f7f7f7;
   padding-bottom: 0;
@@ -199,14 +171,9 @@ section {
   background: rgba(0, 0, 0, 0.8);
   top: 0;
   left: 0;
-  text-align: center;
   opacity: 0;
+}
 
-}
-.portfolio-grid .row > div .card:hover .portfolio-over {
-  opacity: 1;
-  visibility: visible;
-}
 
 /* Contact US */
 /*  background */
@@ -218,6 +185,8 @@ section {
 #contact h2 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   color: Maroon;
+  vertical-align: bottom;
+
 }
   /*  ICONS */
 #contact .info i {
@@ -238,17 +207,31 @@ section {
   background-color: Maroon;
   padding: 10px 0;
 }
+
+
 .site-footer .bottom .list-inline a {
   color: #fff;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  margin-right: 15px;
+  font-family: "Roboto";
+position:  absolute;
+    right:80px;
+  margin-right: 60px;
+  padding: 10px;
+
+
+
 }
 
 .site-footer .bottom .list-inline a:hover {
-  color: black;
+
 }
-.social {
-float: left;
-padding-left: 10px;
+
+.fa{
+  width: 200px;
+  padding: 10px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      color: white
 
 }
