@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Page_Contact);
+      }
+
+      .cls-2 {
+        fill: #202020;
+      }
+
+      .cls-10, .cls-12, .cls-3, .cls-8 {
+        fill: none;
+      }
+
+      .cls-10, .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        stroke-width: 10px;
+      }
+
+      .cls-13, .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        opacity: 0.98;
+      }
+
+      .cls-5 {
+        fill: #f7c735;
+        stroke: #707070;
+      }
+
+      .cls-6 {
+        font-size: 65px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-7, .cls-9 {
+        font-size: 50px;
+        opacity: 0.9;
+      }
+
+      .cls-7 {
+        font-family: Raleway-Regular, Raleway;
+      }
+
+      .cls-8 {
+        stroke: #b8b0ab;
+        stroke-width: 8px;
+      }
+
+      .cls-9 {
+        font-family: Raleway-SemiBold, Raleway;
+        font-weight: 600;
+      }
+
+      .cls-10 {
+        stroke-width: 5px;
+      }
+
+      .cls-11 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-Page_Contact">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Page_Contact" data-name="Page Contact" class="cls-1">
+    <rect class="cls-13" width="1920" height="1080"/>
+    <rect id="Rectangle_295" data-name="Rectangle 295" class="cls-2" width="1920" height="1080"/>
+    <g id="Groupe_82" data-name="Groupe 82" transform="translate(1573 852) rotate(180)">
+      <line id="Ligne_4" data-name="Ligne 4" class="cls-3" x2="29.75" y2="31.433" transform="translate(583 795.067)"/>
+      <line id="Ligne_5" data-name="Ligne 5" class="cls-3" x1="28.25" y2="31.433" transform="translate(612.75 795.067)"/>
+    </g>
+    <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-4" width="1364" height="64.805" transform="translate(278 273)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-4" width="1364" height="64.805" transform="translate(278 388.434)"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-4" width="1364" height="363" transform="translate(278 504)"/>
+    <g id="Rectangle_13" data-name="Rectangle 13" class="cls-5" transform="translate(1244 917.434)">
+      <rect class="cls-11" width="398" height="64.805"/>
+      <rect class="cls-12" x="0.5" y="0.5" width="397" height="63.805"/>
+    </g>
+    <text id="NOUS_CONTACTER" data-name="NOUS CONTACTER" class="cls-6" transform="translate(140 137)"><tspan x="546.464" y="70">NOUS CONTACTER</tspan></text>
+    <text id="Nom" class="cls-7" transform="translate(283 323)"><tspan x="0" y="0">Nom</tspan></text>
+    <line id="Ligne_57" data-name="Ligne 57" class="cls-8" y2="1082" transform="translate(140.5 -1.5)"/>
+    <line id="Ligne_58" data-name="Ligne 58" class="cls-8" x2="1920" transform="translate(0.5 1030.5)"/>
+    <line id="Ligne_59" data-name="Ligne 59" class="cls-8" y2="1081" transform="translate(1779.5 -0.5)"/>
+    <text id="Mail" class="cls-7" transform="translate(283 438)"><tspan x="0" y="0">Mail</tspan></text>
+    <text id="Texte" class="cls-7" transform="translate(283 555)"><tspan x="0" y="0">Texte</tspan></text>
+    <text id="Envoyer" class="cls-9" transform="translate(1352 965)"><tspan x="0" y="0">Envoyer</tspan></text>
+    <g id="Symbole_2_5" data-name="Symbole 2 – 5" transform="translate(137 -15.5)">
+      <line id="Ligne_1" data-name="Ligne 1" class="cls-10" x2="43" transform="translate(1599 74.5)"/>
+      <line id="Ligne_2" data-name="Ligne 2" class="cls-10" x2="43" transform="translate(1599 98.5)"/>
+      <line id="Ligne_3" data-name="Ligne 3" class="cls-10" x2="43" transform="translate(1599 86.5)"/>
+    </g>
+  </g>
+</svg>

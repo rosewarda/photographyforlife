@@ -1,0 +1,123 @@
+ /* TEAM CSS*/
+p,
+h6 {
+    font-family: Raleway;
+}
+
+h2,
+h3 {
+    font-family: Ghotam;
+}
+
+.gris1 {
+    background-color: hsl(0, 0%, 82%);
+    border-radius: 50px;
+    height: 230px;
+    width: 230px;
+    padding-top: 20px;
+}
+
+.gris2 {
+    background-color: #B8B0AB;
+    border-radius: 50px;
+    height: 230px;
+    width: 230px;
+    padding-top: 20px;
+}
+#ligne2 {
+    margin-top: 20px;
+}
+img {
+    height: 65%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.texte {
+    text-align: center;
+}
+
+#team {
+    background-color: #202020;
+    padding-bottom: 20px;
+}
+
+#intro,
+h2,
+p {
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#intro2 {
+    margin: auto;
+}
+
+ /* CONTACT CSS*/
+
+#intro4{
+    margin: auto;
+}
+
+#intro3{
+    margin-top: -10px;
+    padding-bottom: 40px;
+
+}
+
+#contact-us {
+    padding-bottom: 90px;
+}
+
+#contact-us .heading {
+    padding-top: 60px;
+}
+
+.form-control {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, .1);
+    height: 50px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+textarea.form-control {
+    min-height: 180px;
+    resize: none;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    padding-left: 70px;
+    font-weight: 300;
+}
+
+ul.address {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 8px;
+}
+
+.contact-info ul li a {
+    color: #fff;
+}
+
+.btn-submit {
+    display: block;
+    padding: 12px;
+    width: 100%;
+    color: #202020;
+    font-weight: 700;
+    background-color: #F7C737;
+    border: 0;
+    margin-top: 40px;
+}

@@ -234,7 +234,7 @@ nav ul li a {
 
 #header {
   background: url("../images/home-bg.jpg") repeat scroll center center / cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -253,7 +253,7 @@ nav ul li a {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: white;
 }
 
 .header-content p {
@@ -262,7 +262,7 @@ nav ul li a {
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #fff;
+  color: white;
   font-weight: 500;
 }
 
@@ -272,7 +272,7 @@ nav ul li a {
 }
 
 .header-content .list-social li i {
-  color: #fff;
+  color: white;
   font-size: 15px;
 }
 
